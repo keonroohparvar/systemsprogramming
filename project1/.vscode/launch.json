@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "preLaunchTask": "gcc compile",
+            "type": "lldb",
+            "request": "launch",
+            "name": "gcc compile and debug",
+            "program": "${workspaceFolder}/${fileBasenameNoExtension}.out",
+            "args": ["tunnel.bmp", "lion.bmp", "0.5", "out.bmp"],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
